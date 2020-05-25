@@ -17,7 +17,7 @@ En étant plusieurs sur un projet, il se peut qu'un contributeur réalise un `co
 
 
 
-![hagar](screen/hagar.mov)
+![hagar](screen/hagar.gif)
 
 Afin d'éviter cela, on automatise les tests à chaque commit.
 
