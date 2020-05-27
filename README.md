@@ -58,7 +58,7 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         - name: Tests unitaires
           run: |
-            python -m pytest
+            pytest
         - name: Tests de syntaxe (Lint)
           run: |
             pylint myscript.py
@@ -74,9 +74,9 @@ La plupart des outils de CI sont comptatible avec le déploiement continue. Avec
 
 ## Outils de CI
 
-|       Nom      |            Site officiel           |                            Avantages                           |                                 Désavantages                                |   Prix   |
-|:--------------:|:----------------------------------:|:--------------------------------------------------------------:|:---------------------------------------------------------------------------:|:--------:|
-| GitHub Actions | [https://help.github.com/en/actions](https://help.github.com/en/actions) | Très facile à prendre en main, pas besoin d'installation       | Nécéssite de d'utiliser GitHub comme dépôt de fichiers, peu personnalisable | Gratuit  |
-| Gitlab CI      | [https://docs.gitlab.com/ee/ci/](https://docs.gitlab.com/ee/ci/)     | Bonne interface graphique pour visualiser les tests            | Problème de scalabilité                                                     | Gratuit  |
-| Jenkins        | [https://www.jenkins.io/](https://www.jenkins.io/)            | Open-source et compatible avec tous les OS, facile à installer | Moins complet que les autres outils                                         | Gratuit  |
-| Circle CI      | [https://circleci.com/docs/](https://circleci.com/docs/)         | Privé et auto-scale, teste rapidement et très personnalisable  | l'offre gratuite est moins bien efficace que les autres (1 job à la fois)   | Freenium |
+|      Nom       |                              Site officiel                               |                           Avantages                            |                                Désavantages                                 |   Prix   |
+| :------------: | :----------------------------------------------------------------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------: |
+| GitHub Actions | [https://help.github.com/en/actions](https://help.github.com/en/actions) |    Très facile à prendre en main, pas besoin d'installation    | Nécéssite de d'utiliser GitHub comme dépôt de fichiers, peu personnalisable | Gratuit  |
+|   Gitlab CI    |     [https://docs.gitlab.com/ee/ci/](https://docs.gitlab.com/ee/ci/)     |      Bonne interface graphique pour visualiser les tests       |                           Problème de scalabilité                           | Gratuit  |
+|    Jenkins     |            [https://www.jenkins.io/](https://www.jenkins.io/)            | Open-source et compatible avec tous les OS, facile à installer |                     Moins complet que les autres outils                     | Gratuit  |
+|   Circle CI    |         [https://circleci.com/docs/](https://circleci.com/docs/)         | Privé et auto-scale, teste rapidement et très personnalisable  |  l'offre gratuite est moins bien efficace que les autres (1 job à la fois)  | Freenium |
