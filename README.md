@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Le concept d'intégration continue s'inscrit dans la démarche DevOps, c'est un processus qui vise à `gagner du temps` dans le développement d'une application.
+Le concept d'intégration continue s'inscrit dans la démarche DevOps. C'est un processus qui vise à `gagner du temps` dans le développement d'une application.
 
 Il est aussi intéressant de noter qu'une intégration continue n'est pas nécessaire à chacunes des applications que vous êtes en train de développer. En effet, l'intégration continue se démarque lorsque vous êtes sur un projet ayant beaucoup de contributeurs.
 
